@@ -7,11 +7,11 @@ def square(n):
         return 0
         
 def add(n):
-    sum_=0
+    sum_1=0
     for i in range(1,n+1):
-        sum_=sum_+(1/square(n))
+        sum_1=sum_1+(1/square(n))
         n=n-1
-    print(sum_)
+    return sum_1
    
 
 # Euler's number evaluation
@@ -23,11 +23,11 @@ def factorial(n):
         return 1
 
 def e(n):
-    sum_=1
+    sum_2=1
     for i in range(1,n+1):
-        sum_+=(1/factorial(n))
+        sum_2+=(1/factorial(n))
         n=n-1
-    print(sum_)
+    return sum_2
 
 def main():
     n = int(input("please enter n: "))
