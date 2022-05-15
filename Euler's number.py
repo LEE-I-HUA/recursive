@@ -28,3 +28,11 @@ def e(n):
         sum_+=(1/factorial(n))
         n=n-1
     print(sum_)
+
+def main():
+    n = int(input("please enter n: "))
+    print(add(n))
+    print("Euler's number is equal to ", e(n))
+
+if __name__ == '__main__' :
+    main()
